@@ -63,7 +63,13 @@
 
 
 		<!-- Added in 1.2 -->
-		<exclude name="SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition.NullTypeHintNotOnLastPosition"/>
+		<exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineAfterOpeningBrace"/>
+		<exclude name="SlevomatCodingStandard.Classes.SuperfluousTraitNaming.SuperfluousSuffix"/>
+		<exclude name="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator.MultiLineTernaryOperatorNotUsed"/>
+		<exclude name="SlevomatCodingStandard.Operators.RequireCombinedAssignmentOperator.RequiredCombinedAssigmentOperator"/>
+		<exclude name="SlevomatCodingStandard.Operators.RequireOnlyStandaloneIncrementAndDecrementOperators.PostIncrementOperatorNotUsedStandalone"/>
+		<exclude name="SlevomatCodingStandard.PHP.UselessParentheses.UselessParentheses"/>
+
 
 
 		<!-- Explicit allows -->
@@ -102,6 +108,14 @@
 			<property name="allowFullyQualifiedGlobalClasses" value="true"/>
 			<property name="allowFullyQualifiedGlobalFunctions" value="true"/>
 			<property name="allowFullyQualifiedGlobalConstants" value="true"/>
+		</properties>
+	</rule>
+
+
+	<!-- Added in 1.2 -->
+	<rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
+		<properties>
+			<property name="ignoreUnusedValuesWhenOnlyKeysAreUsedInForeach" value="true"/>
 		</properties>
 	</rule>
 </ruleset>
