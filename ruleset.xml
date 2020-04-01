@@ -59,9 +59,7 @@
 		<exclude name="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax"/>
 		<exclude name="SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint.DisallowedMixedTypeHint"/>
 		<exclude name="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingParameterTypeHint"/>
-		<exclude name="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingParameterTypeHint.WhitespaceBeforeColon"/>
 		<exclude name="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint.UselessDocComment"/>
-
 
 		<!-- Added in 1.2 -->
 		<exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineAfterOpeningBrace"/>
@@ -72,9 +70,11 @@
 		<exclude name="SlevomatCodingStandard.PHP.UselessParentheses.UselessParentheses"/>
 		<exclude name="SlevomatCodingStandard.Operators.RequireOnlyStandaloneIncrementAndDecrementOperators.PreIncrementOperatorNotUsedStandalone"/>
 
-		<exclude name="SlevomatCodingStandard.Classes.TraitUseSpacing.IncorrectLinesCountAfterLastUse"/>
-
-
+		<!-- Added in 2.0 -->
+		<exclude name="SlevomatCodingStandard.Commenting.RequireOneLineDocComment.MultiLineDocComment"/>
+		<exclude name="SlevomatCodingStandard.Classes.MethodSpacing.IncorrectLinesCountBetweenMethods"/>
+		<exclude name="SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature.RequiredSingleLineSignature"/>
+		<exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingTraversableTypeHintSpecification"/>
 
 		<!-- Explicit allows -->
 		<rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.IncorrectEmptyLinesBeforeClosingBrace"/>
@@ -102,11 +102,6 @@
 			<property name="spacesCountAroundEqualsSign" value="0"/>
 		</properties>
 	</rule>
-	<rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
-		<properties>
-			<property name="usefulAnnotations" type="array" value="@dataProvider,@todo,@throws"/>
-		</properties>
-	</rule>
 	<rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
 		<properties>
 			<property name="allowFullyQualifiedGlobalClasses" value="true"/>
@@ -114,6 +109,7 @@
 			<property name="allowFullyQualifiedGlobalConstants" value="true"/>
 		</properties>
 	</rule>
+
 
 
 	<!-- Added in 1.2 -->
