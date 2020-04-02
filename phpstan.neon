@@ -6,3 +6,4 @@ parameters:
 		- ../../../tests/temp
 		- ../../../temp
 	checkMissingIterableValueType: false
+	checkGenericClassInNonGenericObjectType: false
