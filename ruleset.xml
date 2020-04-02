@@ -90,6 +90,7 @@
 		<exclude name="SlevomatCodingStandard.Classes.TraitUseSpacing.IncorrectLinesCountAfterLastUse"/>
 		<exclude name="SlevomatCodingStandard.Whitespaces.DuplicateSpaces.DuplicateSpaces"/>
 		<exclude name="SlevomatCodingStandard.Commenting.DisallowCommentAfterCode.DisallowedCommentAfterCode"/>
+		<exclude name="SlevomatCodingStandard.PHP.DisallowReference.DisallowedPassingByReference"/>
 
 		<!-- Explicit allows -->
 		<rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.IncorrectEmptyLinesBeforeClosingBrace"/>
