@@ -8,7 +8,7 @@
 		"issues": "https://github.com/gameeapp/php-code-checker-rules/issues"
 	},
 	"require": {
-		"phpstan/phpstan": "^0.12",
+		"phpstan/phpstan": "^0.12.56",
 		"phpstan/phpstan-strict-rules": "^0.12",
 		"slevomat/coding-standard": "^6.0",
 		"phpstan/phpstan-dibi": "^0.12"
