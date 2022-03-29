@@ -2,7 +2,7 @@ includes:
 	- ../../../vendor/phpstan/phpstan-strict-rules/rules.neon
 
 parameters:
-	excludes_analyse:
+	excludePaths:
 		- ../../../tests/temp
 		- ../../../temp
 	checkMissingIterableValueType: false
