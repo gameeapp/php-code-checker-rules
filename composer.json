@@ -14,5 +14,10 @@
 		"phpstan/phpstan-strict-rules": "^1.1",
 		"phpstan/phpstan-webmozart-assert": "^1.0",
 		"slevomat/coding-standard": "^7.0"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": false
+		}
 	}
 }
