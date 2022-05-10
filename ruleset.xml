@@ -52,6 +52,7 @@
         <exclude name="SlevomatCodingStandard.Functions.RequireSingleLineCall.RequiredSingleLineCall"/>
         <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration"/>
         <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall.DisallowedTrailingComma"/>
+        <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInClosureUse.DisallowedTrailingComma"/>
         <exclude name="SlevomatCodingStandard.Functions.FunctionLength.FunctionLength"/>
 
         <exclude name="SlevomatCodingStandard.Commenting.DisallowOneLinePropertyDocComment.OneLinePropertyComment"/>
