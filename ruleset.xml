@@ -83,6 +83,7 @@
         <exclude name="SlevomatCodingStandard.Numbers.RequireNumericLiteralSeparator.RequiredNumericLiteralSeparator"/>
         <exclude name="SlevomatCodingStandard.Numbers.DisallowNumericLiteralSeparator.DisallowedNumericLiteralSeparator"/>
         <exclude name="SlevomatCodingStandard.Arrays.AlphabeticallySortedByKeys"/>
+        <exclude name="SlevomatCodingStandard.Classes.ConstantSpacing"/>
     </rule>
 
     <rule ref="SlevomatCodingStandard.Complexity.Cognitive">
