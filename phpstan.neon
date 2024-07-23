@@ -5,4 +5,8 @@ parameters:
     excludePaths:
         - ../../../tests/temp
         - ../../../temp
-    checkMissingIterableValueType: false
+    ignoreErrors:
+        -
+            identifier: missingType.iterableValue
+        -
+            identifier: missingType.generics
