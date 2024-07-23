@@ -1,9 +1,10 @@
 includes:
-	- ../../../vendor/phpstan/phpstan-strict-rules/rules.neon
+    - ../../../vendor/phpstan/phpstan-strict-rules/rules.neon
 
 parameters:
-	excludePaths:
-		- ../../../tests/temp
-		- ../../../temp
-	checkMissingIterableValueType: false
-	checkGenericClassInNonGenericObjectType: false
+    excludePaths:
+        - ../../../tests/temp
+        - ../../../temp
+    checkMissingIterableValueType: false
+ignoreErrors:
+    - identifier: missingType.generic
